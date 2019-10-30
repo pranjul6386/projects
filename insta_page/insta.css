@@ -1,0 +1,384 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.div{
+	background-image: url("insta.JPG");
+	height: 1000px;
+	width:500px;
+	background-repeat: no-repeat;
+	margin-left: 19rem;
+	margin-top: 7rem;
+
+
+
+
+}
+
+.outer{
+	margin:0;
+	padding-left:0;
+	width:100rem;
+}
+
+.insta1, .insta2, .insta3{
+	height:420px;
+	width:235px;
+	position: absolute;
+	top: 12.8rem;
+	left: 26.3rem;
+
+
+}
+
+.insta1{
+	
+
+	animation-name: "image1";
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+    
+	
+	
+}
+
+
+.insta2{
+	
+	
+
+	animation-name: "image2";
+	animation-duration:20s;
+	animation-iteration-count: infinite;
+	
+
+
+}
+
+
+
+.insta3{
+	
+	
+
+	animation-name: "image3";
+	animation-duration:20s;
+	animation-iteration-count: infinite;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes image1{
+
+	0%{
+		opacity: 0;
+
+	}
+	25%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0;
+	}
+	75%{
+        opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+
+}
+
+
+@keyframes image2{
+
+	0%{
+		opacity: 0;
+
+	}
+	25%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	75%{
+        opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+	
+}
+
+
+@keyframes image3{
+   
+    0%{
+		opacity: 0;
+
+	}
+	25%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0;
+	}
+	75%{
+        opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+.insta1{
+	
+
+	-webkit-animation-name: "image1";
+	-webkit-animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+    
+	
+	
+}
+
+
+.insta2{
+	
+	
+
+	-webkit-animation-name: "image2";
+	-webkit-animation-duration:20s;
+	-webkit-animation-iteration-count: infinite;
+	
+
+
+}
+
+
+
+.insta3{
+	
+	
+
+	-webkit-animation-name: "image3";
+	-webkit-animation-duration:20s;
+	-webkit-animation-iteration-count: infinite;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+-webkit-@keyframes image1{
+
+	0%{
+		opacity: 0;
+
+	}
+	25%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0;
+	}
+	75%{
+        opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+
+}
+
+
+-webkit-@keyframes image2{
+
+	0%{
+		opacity: 0;
+
+	}
+	25%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	75%{
+        opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+	
+}
+
+
+-webkit-@keyframes image3{
+   
+    0%{
+		opacity: 0;
+
+	}
+	25%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0;
+	}
+	75%{
+        opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.side{
+	position: relative;
+	top: 2.8rem;
+	left: -6.3rem;
+
+
+}
+
+
+input{
+	padding: 15px;
+	height: 7px;
+	padding-left: 4px;
+	border:1px solid #f0ece1;
+	border-radius: 2px;
+	width: 250px;
+	font-family: Calibri;
+	font-size: 14px;
+	margin-bottom: 5px;
+
+}
+
+button{
+	border:none;
+	background-color: #667df2;
+	color: white;
+	
+	padding: 7px;
+	width: 270px;
+	border-radius: 4px;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+   
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+
+.logo{
+	position: relative;
+	top: -1.2rem;
+}
+
+.def{
+	color:  #9c988a;
+	position: relative;
+	top: -1rem;
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-family:  "Calibri";
+}
+
+a{
+	text-decoration: none;
+	color:  #9c988a;
+	font-weight: bold;
+
+}
+
+
+.bottom{
+	border:1px solid #f0ece1;
+	text-align: center;
+	padding: 1.5rem; 
+	margin-top: -10px;
+	
+}
+
+.login{
+	text-decoration: none;
+	color:  blue;
+
+}
+
+
+.footer{
+	position: relative;
+	width: 100%;
+    clear: none;
+	
+	
+}
+
+.app{
+	text-align: center;
+	margin-top: 28px;
+	font-size: 15px;
+	font-family: Calibri;
+	
+	
+}
+
+.indiv{
+	text-align: center;
+	margin-top: 20px;
+
+}
