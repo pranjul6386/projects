@@ -1,0 +1,17 @@
+In this project Ive anonymously taken the details of the fb login and password of the user connected to the LAN of which the same server is rumming.
+
+
+
+I ve made a dummy facebook on using html/css and it is hosted on localhost server i.e. ip of the current network.
+That means anyone connected to the same LAN can access to the facebook login page.
+Now if the user login to the dummy facebook.
+A new window with the facebook logged in to user account opened.
+And the dummy page shows the server overloaded error which is so obvious for any website.
+And username and password is saved in the binary file created.
+We can access this file later using python file so created.
+
+
+Every file is created and uploaded here only...
+
+Language used : python, HTML, CSS
+python liberary : pickle, flask, selenium-webdriver
